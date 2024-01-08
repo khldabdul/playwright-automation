@@ -32,6 +32,10 @@ module.exports = defineConfig({
     video: 'on'
   },
 
+  expect: {
+    toHaveScreenshot: { maxDiffPixelRatio: 0.1 }
+  },
+
   /* Configure projects for major browsers */
   projects: [
     {

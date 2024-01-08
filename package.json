@@ -3,8 +3,9 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test:all": "npx playwright test --headed",
-    "test": "npx playwright test --ui",
+    "test": "npx playwright test --headed",
+    "test:open": "npx playwright test --ui",
+    "test:headless": "npx playwright test",
     "report": "npx playwright show-report",
     "codegen": "npx playwright codegen"
   },

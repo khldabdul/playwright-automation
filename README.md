@@ -68,3 +68,6 @@ npm run codegen https://www.saucedemo.com/
 ```bash
 npm run report
 ```
+
+## Test Result
+![test_result](https://i.ibb.co/G7SKqRf/Screenshot-2024-01-08-at-14-16-56.png)

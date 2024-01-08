@@ -71,3 +71,6 @@ npm run report
 
 ## Test Result
 ![test_result](https://i.ibb.co/G7SKqRf/Screenshot-2024-01-08-at-14-16-56.png)
+
+### Watch the test result video
+[![test_result_video](https://i.ibb.co/G7SKqRf/Screenshot-2024-01-08-at-14-16-56.png)](https://youtu.be/eyx8HDcr_xQ)

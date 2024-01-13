@@ -13,10 +13,20 @@ jobs:
     steps:
       - checkout
       - run: npm install
+      - run: npx playwright install
       - run: npm test
 
 workflows:
   version: 2
   build-and-test:
     jobs:
-      - test
+      - build
+      - lint:
+          requires:
+            - build
+      - test:
+          requires:
+            - build
+      - deploy:
+          requires:
+            - test
